@@ -1,0 +1,644 @@
+
+@extends('web::layout.master')
+        @section('contents')
+<!-- End home -->
+<section id="home" class="home-wrapper parallax polygon-bg">
+    <div class="home-contain">
+        <div class="container">
+            <div class="row text-center wow fadeInUp" data-wow-delay="0.4s">
+                <div class="col-md-10 col-md-offset-1">
+                    <h3>Discover a different for your business
+                        <span>Our powerful, adaptable, affordable products are made for the way your business runs today. With all the complexities businesses, we made the choice of CRM simple. Just use United IT Solution CRM and become a hero at work. United IT Solution is ready. Are you?</span>
+                    </h3>
+                    <!-- <p class="btn-inline">
+                        <a href="" class="btn btn-primary btn-lg">Try Demo</a>
+                    </p> -->
+                    <div class="home-slider">
+                        <div id="slider1_container" style="position: relative; margin: 0 auto; width:800px; height:400px; left:0px; top:0px;">
+
+                            <!-- Loading Screen -->
+                            <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                                <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                background-color: #000000; top: 0px; left: 0px;width: 100%;height:100%;">
+                                </div>
+                                <div style="position: absolute; display: block; background: url('{{url("demo/assets/img/loading.gif")}}') no-repeat center center;
+                top: 0px; left: 0px;width: 100%;height:100%;">
+                                </div>
+                            </div>
+
+                            <!-- Slides Container -->
+                            <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 800px; height: 400px;
+            overflow: hidden;">
+                                <div>
+                                    <img u="image" src="{{url('demo/assets/img/slider/screen1.png')}}" />
+                                    <img u="thumb" src="{{url('demo/assets/img/slider/thumb-screen1.png')}}" />
+                                </div>
+                                <div>
+                                    <img u="image" src="{{url('demo/assets/img/slider/screen2.png')}}" />
+                                    <img u="thumb" src="{{url('demo/assets/img/slider/thumb-screen2.png')}}" />
+                                </div>
+                                <div>
+                                    <img u="image" src="{{url('demo/assets/img/slider/screen3.png')}}" />
+                                    <img u="thumb" src="{{url('demo/assets/img/slider/thumb-screen3.png')}}" />
+                                </div>
+                                <div>
+                                    <img u="image" src="{{url('demo/assets/img/slider/screen4.png')}}" />
+                                    <img u="thumb" src="{{url('demo/assets/img/slider/thumb-screen4.png')}}" />
+                                </div>
+                                <div>
+                                    <img u="image" src="{{url('demo/assets/img/slider/screen5.png')}}" />
+                                    <img u="thumb" src="{{url('demo/assets/img/slider/thumb-screen5.png')}}" />
+                                </div>
+                                <div>
+                                    <img u="image" src="{{url('demo/assets/img/slider/screen6.png')}}" />
+                                    <img u="thumb" src="{{url('demo/assets/img/slider/thumb-screen6.png')}}" />
+                                </div>
+                            </div>
+
+                            <!-- Trigger -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <input type="hidden" id="stTransitionName">
+    <input type="hidden" id="stTransition">
+</section>
+<!-- End home -->
+<div class="clearfix"></div>
+<!-- Start features -->
+<section id="features">
+    <div class="container">
+        <div class="row text-center wow fadeInUp" data-wow-delay="0.4s">
+            <div class="col-md-8 col-md-offset-2">
+                <h3 class="heading"><span>Modules</span>The modules of United CRM</h3>
+            </div>
+        </div>
+        <div class="row wow fadeInDown" data-wow-delay="0.4s">
+            <div class="col-md-4 feature-box">
+                <i class="pe-feature fa fa-phone"></i>
+                <h5>Lead Management</h5>
+                <p>
+                    Capture lead information from business cards, websites, or Google AdWords campaigns. Use advanced filters to identify promising possibilities.
+                </p>
+            </div>
+            <div class="col-md-4 feature-box">
+                <i class="pe-feature fa fa-openid"></i>
+                <h5>Opportunity Management</h5>
+                <p>
+                    Can get an opportunity is not a goal. To success this opportunity the system can excellent performance by a process.
+                </p>
+            </div>
+            <div class="col-md-4 feature-box">
+                <i class="pe-feature fa fa-reddit"></i>
+                <h5>Corporate Relation</h5>
+                <p>
+                    Create corporate relation chain and a communication opportunity which is help to go the right destination.</p>
+            </div>
+            <div class="col-md-4 feature-box">
+                <i class="pe-feature fa fa-android"></i>
+                <h5>Advanced CRM Analytics</h5>
+                <p>
+                    What's data without analysis? With pre-made templates and custom reports it's easier to spot patterns and forecast trends.
+                </p>
+            </div>
+            <div class="col-md-4 feature-box">
+                <i class="pe-feature fa fa-filter"></i>
+                <h5>Advanced Filters</h5>
+                <p>
+                    Find what you're looking for. Filter data to target deals and make sales decisions strategically.
+                </p>
+            </div>
+            <div class="col-md-4 feature-box">
+                <i class="pe-feature fa fa-map-marker"></i>
+                <h5>Sales & Marketing</h5>
+                <p>
+                    Generate more sales with automation, workflows, and advanced reporting. Keep your sales and marketing teams working together by United CRM.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End features -->	<div class="clearfix"></div>
+<!-- Start description -->
+<section id="description" class="contain">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 wow fadeInLeft" data-wow-delay="0.4s">
+                <img src="{{url('demo/assets/img/home3.png')}}" class="img-responsive"  alt="" />
+            </div>
+            <div class="col-md-5 margintop40 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="accordion clearfix" id="accordion1">
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                <i class="fa fa-angle-down" style="color: #000!important;"></i> Flexibility
+                            </a>
+                        </div>
+                        <div id="collapse1" class="accordion-body collapse in">
+                            <div class="accordion-inner">
+                                <p>
+                                    United IT Solution offers the most innovative, flexible and affordable CRM in the market and delivers the best all-around any CRM solution in the industry. However, the real value of Leadvas goes far beyond the low total cost of ownership customers have enjoyed for more than a decade.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                <i class="fa fa-angle-down" style="color: #000!important;"></i> Personalize and customize
+                            </a>
+                        </div>
+                        <div id="collapse2" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <p>
+                                    Powerful workflow tools in United IT Solution allow you to automate and optimize even the most complex business practices  to heighten customer experiences, drive productivity and reduce operating costs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                <i class="fa fa-angle-down" style="color: #000!important;"></i> Workflow Automation
+                            </a>
+                        </div>
+                        <div id="collapse3" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <p>
+                                    Work smarter, not harder. Keep your CRM up to date so you can spend less time managing your schedule and more time talking to prospects.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End description -->
+<div class="clearfix"></div>
+<!-- Start counter -->
+<section id="counter-wrapper">
+    <div class="counter-contain">
+        <div class="container">
+            <div class="row text-center appear stats wow fadeInUp" data-wow-delay="0.4s">
+                <div class="col-md-12">
+                    <h3>More than 200 user use United IT Solution</h3>
+                    <p>Lets see how to change your company by United IT Solution.</p>
+                </div>
+            </div>
+            <div class="row text-center appear stats wow fadeInDown" data-wow-delay="0.4s">
+                <div class="col-md-4 col-md-offset-4">
+                    <span id="counter-download" class="counter-number">285</span>
+                    <span class="counter-text">Users</span>
+                </div>
+                <!--<div class="col-md-2">
+                    <span id="counter-view" class="counter-number">625</span>
+                    <span class="counter-text">Windows user</span>
+                </div>
+                <div class="col-md-2">
+                    <span id="counter-android" class="counter-number">348</span>
+                    <span class="counter-text">Android user</span>
+                </div>
+                <div class="col-md-2">
+                    <span id="counter-ios" class="counter-number">227</span>
+                    <span class="counter-text">IOS user</span>
+                </div>	-->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End counter -->
+<div class="clearfix"></div>
+<!-- Start screenshot -->
+<section id="screenshot" class="contain">
+    <div class="container">
+        <div class="row text-center wow fadeInUp" data-wow-delay="0.4s">
+            <div class="col-md-10 col-md-offset-1 wow fadeInUp" data-wow-delay="0.4s">
+                <h3 class="heading"><span>Manual</span> Our product manual</h3>
+            </div>
+        </div>
+    </div>
+    <div id="screenshot-contain" class="wow fadeInDown" data-wow-delay="0.4s">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="screenshot-slider">
+                        <div class="screenshot-wrapper">
+                            <div class="flexslider text-center">
+                                <ul class="slides">
+                                    <li>
+                                        <iframe id="player_1" src="https://www.youtube.com/embed/a8ZpAf_tNh0" width="918px" height="450px" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                                    </li>
+                                    {{--<li>
+                                        <a href="#"><img src="{{url('demo/assets/img/screenshot/screen1.png')}}" alt="" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="{{url('demo/assets/img/screenshot/screen2.png')}}" alt="" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="{{url('demo/assets/img/screenshot/screen3.png')}}" alt="" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="{{url('demo/assets/img/screenshot/screen4.png')}}" alt="" /></a>
+                                    </li><li>
+                                        <a href="#"><img src="{{url('demo/assets/img/screenshot/screen5.png')}}" alt="" /></a>
+                                    </li><li>
+                                        <a href="#"><img src="{{url('demo/assets/img/screenshot/screen6.png')}}" alt="" /></a>
+                                    </li>--}}
+                                </ul>
+                            </div>
+                        </div>
+                        <img src="{{url('demo/assets/img/browser.png')}}" class="img-responsive" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End screenshot -->
+<div class="clearfix"></div>
+<!-- Start pricing -->
+<!---
+<section id="pricing" class="contain gray-bg">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-10 col-md-offset-1 wow fadeInUp" data-wow-delay="0.4s">
+                <h3 class="heading" style="margin-bottom:15px; padding:15px 30px"><span>Pricing table</span>Every Feature on Every Plan</h3>
+                <div style="margin-bottom: 20px">
+                    United IT Solution includes every feature on every plan. <br/>
+                    So, no matter the size of your website, you get access to all of our powerful tools.
+                </div>
+            </div>
+        </div>
+        <div class="row wow fadeInDown" data-wow-delay="0.4s">
+            <div class="col-md-4">
+                <div class="pricing-wrapper">
+                    <div class="pricing-head">
+                        <h4>Free</h4>
+                        <span class="pricing-price">&#2547;0</span>
+                        <p>Free trial 30 days</p>
+
+                    </div>
+                    <ul>
+                        <li><strong>30 day</strong> trial</li>
+                        <li><strong>No</strong> support</li>
+                        <li><strong>No</strong> update</li>
+                        <li><strong>No</strong> security</li>
+                    </ul>
+                    <div class="pricing-bottom">
+                        <a href="#" class="btn btn-default btn-bordered btn-lg">Get it now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="pricing-wrapper">
+                    <form>
+                        <div class="pricing-head popular">
+                            <h4>Business</h4>
+                            <div class="pricing-price"><span class="currency_symbol">&#2547;</span><span class="package_price">2500/m</span></div>
+
+                            <p>How many users do you have?</p>
+                        </div>
+                        <ul>
+                            <li><strong><span class="user_amount">1</span> user</strong> </li>
+                            <li><input type="text" name="user" class="slider" value="1" data-slider-min="1" data-slider-max="51" data-slider-step="1" data-slider-value="1"  data-slider-tooltip="hide"></li>
+                            <li><strong>Free</strong> support</li>
+                            <li><strong>Free</strong> update</li>
+                            <li><strong>1 GB</strong> / user</li>
+                            <li><strong>Data</strong> security</li>
+                        </ul>
+                        <div class="pricing-bottom" id="business_btn">
+                            <button type="submit" class="btn btn-primary btn-lg"> Get it now </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="pricing-wrapper">
+                    <div class="pricing-head">
+                        <h4>Corporate</h4>
+                        <span class="pricing-price">Negotiable</span>
+                        <p>Best for corporate</p>
+                    </div>
+                    <ul>
+                        <li><strong>Unlimited</strong> user </li>
+                        <li><strong>Unlimited</strong> bandwidth</li>
+                        <li><strong>Unlimited</strong> Storage</li>
+                        <li><strong>Data</strong> Security</li>
+                    </ul>
+                    <div class="pricing-bottom">
+                        <a href="{{url('/')}}#contact" class="btn btn-default btn-bordered btn-lg">Request Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  -->
+<!-- End pricing -->
+
+<div class="clearfix"></div>
+
+<!-- Start download -->
+<section id="download">
+    <div class="download-wrapper">
+        <div class="container">
+            <div class="row wow fadeInUp" data-wow-delay="0.4s">
+                <div class="col-md-8 col-md-offset-2">
+                    <h3>Try for Free 30 days</h3>
+                    <!--<p>Risk Free. 60 Day Money Back Guarantee.</p>-->
+                    <form>
+                        <fieldset class="subscribe-form">
+                            <a class="subscribe-button" type="button" href="{{url('registration')}}" style="color: #FFF!important;">Get Your Free Demo</a>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End download -->
+<div class="clearfix"></div>
+<!-- Start testimoni -->
+<section id="testimoni" class="contain">
+    <div class="container">
+        <div class="row text-center wow fadeInUp" data-wow-delay="0.4s">
+            <div class="col-md-12">
+                <h3 class="heading"><span>Testimonials</span>People said about United IT Solution</h3>
+            </div>
+        </div>
+    </div>
+    <div id="owl-testimoni" class="owl-carousel wow fadeInDown" data-wow-delay="0.4s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <blockquote>
+                            Most powerful tools to manage the lead and easy way to monitoring the sales team.
+                            So user frankly
+                        </blockquote>
+                        <span class="testimoni-sparator"></span>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="testimoni-author">
+                        <div class="author-info">
+                            <h5>Md. Saad</h5>
+                            <p><a href="#">Developer</a></p>
+                        </div>
+                        <img src="{{url('demo/assets/img/avatar1.png')}}" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <blockquote>
+                            The business process update in time by using United IT Solution and customer behaviour analysis help to go the destination.
+                        </blockquote>
+                        <span class="testimoni-sparator"></span>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="testimoni-author">
+                        <div class="author-info">
+                            <h5>Md. Sajjad Hossain Khan</h5>
+                            <p><a href="#">Project manager</a></p>
+                        </div>
+                        <img src="{{url('demo/assets/img/avatar2.png')}}" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <blockquote>
+                            After using United CRM in my company we feel our sales monitoring more easier. This is great tools.
+                        </blockquote>
+                        <span class="testimoni-sparator"></span>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="testimoni-author">
+                        <div class="author-info">
+                            <h5>Md. Sayiful Islam</h5>
+                            <p><a href="#">CEO</a></p>
+                        </div>
+                        <img src="{{url('demo/assets/img/avatar3.png')}}" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End testimoni -->
+<div class="clearfix"></div>
+<!-- Start contact -->
+<section id="contact">
+    <div class="contact-contain">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12 wow fadeInUp" data-wow-delay="0.4s">
+                    <h3 class="heading"><span>Contact</span>Get in touch with us</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 wow fadeInDown" data-wow-delay="0.4s">
+                    <form id="contactform" class="validateform" name="leaveContact">
+                        <div class="clearfix"></div>
+                        <div id="sendmessage" style="padding-right:15px">
+                            <div class="alert alert-success marginbot35">
+                                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                Your message has been sent. Thank you!
+                            </div>
+                        </div>
+                        <div id="set_message" style="padding-right:15px"></div>
+                        <ul class="listForm">
+                            <li>
+                                <i class="fa fa-user"></i>
+                                <input class="form-control input-name" type="text" name="name" required placeholder="Enter your full name" />
+                                <div class="validation"></div>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i>
+                                <input class="form-control input-email" type="email" name="email" required placeholder="Enter your email address" />
+                                <div class="validation"></div>
+                            </li>
+                            <li class="push">
+                                <i class="fa fa-info-circle"></i>
+                                <textarea class="form-control input-message" rows="6" name="message" required placeholder="Write something for us"></textarea>
+                                <div class="validation"></div>
+                            </li>
+                            <li class="push text-center">
+                                <input type="submit" value="Send message" class="btn btn-primary btn-lg" name="Submit" />
+                            </li>
+                        </ul>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End contact -->
+
+<div class="clearfix"></div>
+
+
+@endsection
+<script type="text/javascript" src="{{url('demo/assets/js/jssor.slider-25.1.0.min.js')}}"></script>
+@section('jssor-slider')
+    <script>
+        var _SlideshowTransitionC = {};
+        var _SlideshowTransitionCodes = {};
+        var _SlideshowTransitions = [];
+
+
+        //----------- Wave out Effects --------------
+        {
+
+            _SlideshowTransitionC["Wave out"] = { $Duration: 1500, y: -0.5, $Delay: 60, $Cols: 12, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Easing: $Jease$.$InWave, $Round: { $Top: 1.5 } };
+            _SlideshowTransitionCodes["Wave out"] = "{$Duration:1500,y:-0.5,$Delay:60,$Cols:12,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Easing:$Jease$.$InWave,$Round:{$Top:1.5}}";
+
+            _SlideshowTransitionC["Wave out Eagle"] = { $Duration: 1500, y: -0.5, $Delay: 60, $Cols: 15, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationCircle, $Easing: $Jease$.$InWave, $Round: { $Top: 1.5 } };
+            _SlideshowTransitionCodes["Wave out Eagle"] = "{$Duration:1500,y:-0.5,$Delay:60,$Cols:15,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationCircle,$Easing:$Jease$.$InWave,$Round:{$Top:1.5}}";
+
+            _SlideshowTransitionC["Wave out Swirl"] = { $Duration: 1500, x: -1, y: 0.5, $Delay: 60, $Cols: 8, $Rows: 4, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 260, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutWave }, $Round: { $Top: 1.5 } };
+            _SlideshowTransitionCodes["Wave out Swirl"] = "{$Duration:1500,x:-1,y:0.5,$Delay:60,$Cols:8,$Rows:4,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationSwirl,$Assembly:260,$Easing:{$Left:$Jease$.$Linear,$Top:$Jease$.$OutWave},$Round:{$Top:1.5}}";
+
+            _SlideshowTransitionC["Wave out ZigZag"] = { $Duration: 1500, x: 1, y: 0.5, $Delay: 60, $Cols: 8, $Rows: 4, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $ChessMode: { $Row: 3 }, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutWave }, $Round: { $Top: 1.5 } };
+            _SlideshowTransitionCodes["Wave out ZigZag"] = "{$Duration:1500,x:1,y:0.5,$Delay:60,$Cols:8,$Rows:4,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationZigZag,$Assembly:260,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$Linear,$Top:$Jease$.$OutWave},$Round:{$Top:1.5}}";
+
+            _SlideshowTransitionC["Wave out Square"] = { $Duration: 1500, x: -1, y: 0.5, $Delay: 60, $Cols: 8, $Rows: 4, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationSquare, $Assembly: 260, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutWave }, $Round: { $Top: 1.5 } };
+            _SlideshowTransitionCodes["Wave out Square"] = "{$Duration:1500,x:-1,y:0.5,$Delay:60,$Cols:8,$Rows:4,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationSquare,$Assembly:260,$Easing:{$Left:$Jease$.$Linear,$Top:$Jease$.$OutWave},$Round:{$Top:1.5}}";
+
+            _SlideshowTransitionC["Wave out Rectangle"] = { $Duration: 1500, x: -1, y: 0.5, $Delay: 60, $Cols: 8, $Rows: 4, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationRectangle, $Assembly: 260, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutWave }, $Round: { $Top: 1.5 } };
+            _SlideshowTransitionCodes["Wave out Rectangle"] = "{$Duration:1500,x:-1,y:0.5,$Delay:60,$Cols:8,$Rows:4,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationRectangle,$Assembly:260,$Easing:{$Left:$Jease$.$Linear,$Top:$Jease$.$OutWave},$Round:{$Top:1.5}}";
+
+            _SlideshowTransitionC["Wave out Circle"] = { $Duration: 1500, x: -1, y: 0.5, $Delay: 60, $Cols: 8, $Rows: 4, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationCircle, $Assembly: 260, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutWave }, $Round: { $Top: 1.5 } };
+            _SlideshowTransitionCodes["Wave out Circle"] = "{$Duration:1500,x:-1,y:0.5,$Delay:60,$Cols:8,$Rows:4,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationCircle,$Assembly:260,$Easing:{$Left:$Jease$.$Linear,$Top:$Jease$.$OutWave},$Round:{$Top:1.5}}";
+
+            _SlideshowTransitionC["Wave out Cross"] = { $Duration: 1500, x: -1, y: 0.5, $Delay: 60, $Cols: 8, $Rows: 4, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationCross, $Assembly: 260, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutWave }, $Round: { $Top: 1.5 } };
+            _SlideshowTransitionCodes["Wave out Cross"] = "{$Duration:1500,x:-1,y:0.5,$Delay:60,$Cols:8,$Rows:4,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationCross,$Assembly:260,$Easing:{$Left:$Jease$.$Linear,$Top:$Jease$.$OutWave},$Round:{$Top:1.5}}";
+
+            _SlideshowTransitionC["Wave out Rectangle Cross"] = { $Duration: 1500, x: -1, y: 0.5, $Delay: 60, $Cols: 8, $Rows: 4, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationRectangleCross, $Assembly: 260, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutWave }, $Round: { $Top: 1.5 } };
+            _SlideshowTransitionCodes["Wave out Rectangle Cross"] = "{$Duration:1500,x:-1,y:0.5,$Delay:60,$Cols:8,$Rows:4,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationRectangleCross,$Assembly:260,$Easing:{$Left:$Jease$.$Linear,$Top:$Jease$.$OutWave},$Round:{$Top:1.5}}";
+        }
+
+        //----------- Wave in Effects --------------
+        {
+
+            _SlideshowTransitionC["Wave in"] = { $Duration: 1500, y: -0.5, $Delay: 60, $Cols: 12, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Easing: $Jease$.$InWave, $Round: { $Top: 1.5 } };
+            _SlideshowTransitionCodes["Wave in"] = "{$Duration:1500,y:-0.5,$Delay:60,$Cols:12,$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Easing:$Jease$.$InWave,$Round:{$Top:1.5}}";
+
+            _SlideshowTransitionC["Wave in Eagle"] = { $Duration: 1500, y: -0.5, $Delay: 60, $Cols: 15, $Formation: $JssorSlideshowFormations$.$FormationCircle, $Easing: $Jease$.$InWave, $Round: { $Top: 1.5 } };
+            _SlideshowTransitionCodes["Wave in Eagle"] = "{$Duration:1500,y:-0.5,$Delay:60,$Cols:15,$Formation:$JssorSlideshowFormations$.$FormationCircle,$Easing:$Jease$.$InWave,$Round:{$Top:1.5}}";
+
+            _SlideshowTransitionC["Wave in Swirl"] = { $Duration: 1500, x: -1, y: 0.5, $Delay: 60, $Cols: 8, $Rows: 4, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 260, $Easing: { $Left: $Jease$.$Swing, $Top: $Jease$.$InWave }, $Round: { $Top: 1.5 } };
+            _SlideshowTransitionCodes["Wave in Swirl"] = "{$Duration:1500,x:-1,y:0.5,$Delay:60,$Cols:8,$Rows:4,$Formation:$JssorSlideshowFormations$.$FormationSwirl,$Assembly:260,$Easing:{$Left:$Jease$.$Swing,$Top:$Jease$.$InWave},$Round:{$Top:1.5}}";
+
+            _SlideshowTransitionC["Wave in ZigZag"] = { $Duration: 1500, x: 1, y: 0.5, $Delay: 60, $Cols: 8, $Rows: 4, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $ChessMode: { $Row: 3 }, $Easing: { $Left: $Jease$.$Swing, $Top: $Jease$.$InWave }, $Round: { $Top: 1.5 } };
+            _SlideshowTransitionCodes["Wave in ZigZag"] = "{$Duration:1500,x:1,y:0.5,$Delay:60,$Cols:8,$Rows:4,$Formation:$JssorSlideshowFormations$.$FormationZigZag,$Assembly:260,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$Swing,$Top:$Jease$.$InWave},$Round:{$Top:1.5}}";
+
+            _SlideshowTransitionC["Wave in Square"] = { $Duration: 1500, x: -1, y: 0.5, $Delay: 60, $Cols: 8, $Rows: 4, $Formation: $JssorSlideshowFormations$.$FormationSquare, $Assembly: 260, $Easing: { $Left: $Jease$.$Swing, $Top: $Jease$.$InWave }, $Round: { $Top: 1.5 } };
+            _SlideshowTransitionCodes["Wave in Square"] = "{$Duration:1500,x:-1,y:0.5,$Delay:60,$Cols:8,$Rows:4,$Formation:$JssorSlideshowFormations$.$FormationSquare,$Assembly:260,$Easing:{$Left:$Jease$.$Swing,$Top:$Jease$.$InWave},$Round:{$Top:1.5}}";
+
+            _SlideshowTransitionC["Wave in Rectangle"] = { $Duration: 1500, x: -1, y: 0.5, $Delay: 60, $Cols: 8, $Rows: 4, $Formation: $JssorSlideshowFormations$.$FormationRectangle, $Assembly: 260, $Easing: { $Left: $Jease$.$Swing, $Top: $Jease$.$InWave }, $Round: { $Top: 1.5 } };
+            _SlideshowTransitionCodes["Wave in Rectangle"] = "{$Duration:1500,x:-1,y:0.5,$Delay:60,$Cols:8,$Rows:4,$Formation:$JssorSlideshowFormations$.$FormationRectangle,$Assembly:260,$Easing:{$Left:$Jease$.$Swing,$Top:$Jease$.$InWave},$Round:{$Top:1.5}}";
+
+            _SlideshowTransitionC["Wave in Circle"] = { $Duration: 1500, x: -1, y: 0.5, $Delay: 60, $Cols: 8, $Rows: 4, $Formation: $JssorSlideshowFormations$.$FormationCircle, $Assembly: 260, $Easing: { $Left: $Jease$.$Swing, $Top: $Jease$.$InWave }, $Round: { $Top: 1.5 } };
+            _SlideshowTransitionCodes["Wave in Circle"] = "{$Duration:1500,x:-1,y:0.5,$Delay:60,$Cols:8,$Rows:4,$Formation:$JssorSlideshowFormations$.$FormationCircle,$Assembly:260,$Easing:{$Left:$Jease$.$Swing,$Top:$Jease$.$InWave},$Round:{$Top:1.5}}";
+
+            _SlideshowTransitionC["Wave in Cross"] = { $Duration: 1500, x: -1, y: 0.5, $Delay: 60, $Cols: 8, $Rows: 4, $Formation: $JssorSlideshowFormations$.$FormationCross, $Assembly: 260, $Easing: { $Left: $Jease$.$Swing, $Top: $Jease$.$InWave }, $Round: { $Top: 1.5 } };
+            _SlideshowTransitionCodes["Wave in Cross"] = "{$Duration:1500,x:-1,y:0.5,$Delay:60,$Cols:8,$Rows:4,$Formation:$JssorSlideshowFormations$.$FormationCross,$Assembly:260,$Easing:{$Left:$Jease$.$Swing,$Top:$Jease$.$InWave},$Round:{$Top:1.5}}";
+
+            _SlideshowTransitionC["Wave in Rectangle Cross"] = { $Duration: 1500, x: -1, y: 0.5, $Delay: 60, $Cols: 8, $Rows: 4, $Formation: $JssorSlideshowFormations$.$FormationRectangleCross, $Assembly: 260, $Easing: { $Left: $Jease$.$Swing, $Top: $Jease$.$InWave }, $Round: { $Top: 1.5 } };
+            _SlideshowTransitionCodes["Wave in Rectangle Cross"] = "{$Duration:1500,x:-1,y:0.5,$Delay:60,$Cols:8,$Rows:4,$Formation:$JssorSlideshowFormations$.$FormationRectangleCross,$Assembly:260,$Easing:{$Left:$Jease$.$Swing,$Top:$Jease$.$InWave},$Round:{$Top:1.5}}";
+        }
+
+        $Jssor$.$Each(_SlideshowTransitionC, function (slideshowTransition, name) {
+            _SlideshowTransitions.push(slideshowTransition);
+        });
+    </script>
+    <script>
+        jssor_slider1_init = function (containerId) {
+            var jssor_slider1 = new $JssorSlider$(containerId, {
+                $AutoPlay: 1,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $Idle: 400,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $Cols is greater than 1, or parking position is not 0)
+                $PauseOnHover: 1,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                $SlideshowOptions: {                                //[Optional] Options to specify and enable slideshow or not
+                    $Class: $JssorSlideshowRunner$,                 //[Required] Class to create instance of slideshow
+                    $Transitions: _SlideshowTransitions,            //[Required] An array of slideshow transitions to play slideshow
+                    $TransitionsOrder: 1,                           //[Optional] The way to choose transition to play slide, 1 Sequence, 0 Random
+                    $ShowLink: true                                 //[Optional] Whether to bring slide link on top of the slider when slideshow is running, default value is false
+                }
+            });
+
+            PlaySlideshowTransition = function (event) {
+                $Jssor$.$StopEvent(event);
+                $Jssor$.$CancelEvent(event);
+
+                try {
+                    var eventSrcElement = $Jssor$.$EvtSrc(event);
+                    var transitionName = $Jssor$.$InnerText(eventSrcElement);
+                    jssor_slider1.$Next();
+
+                    jssor_slider1.$SetSlideshowTransitions([_SlideshowTransitionC[transitionName]]);
+
+                    var effectStr = _SlideshowTransitionCodes[transitionName];
+
+                    if (transitionNameTextBox) {
+                        transitionNameTextBox.value = transitionName;
+                    }
+                    if (transitionCodeTextBox) {
+                        transitionCodeTextBox.value = effectStr;
+                    }
+                }
+                catch (e) { }
+            }
+
+            TransitionTextBoxClickEventHandler = function (event) {
+                transitionCodeTextBox.select();
+
+                $Jssor$.$CancelEvent(event);
+                $Jssor$.$StopEvent(event);
+            }
+
+            var transitionCodeTextBox = $Jssor$.$GetElement("stTransition");
+            var transitionNameTextBox = $Jssor$.$GetElement("stTransitionName");
+            $Jssor$.$AddEvent(transitionCodeTextBox, "click", TransitionTextBoxClickEventHandler);
+
+            //responsive code begin
+            //remove responsive code if you don't want the slider scales while window resizing
+            function ScaleSlider() {
+                var bodyWidth = document.body.clientWidth;
+                if (bodyWidth)
+                    jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 600));
+                else
+                    $Jssor$.$Delay(ScaleSlider, 30);
+            }
+
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            //responsive code end
+        };
+    </script>
+    <script>jssor_slider1_init("slider1_container");</script>
+@endsection
+@section('custom-script')
+    <script>
+        $(function(e){
+            $('#contactform').validate();
+
+            $('#contactform').submit(function(f){
+                if($('#contactform').valid() == true){
+                    $('#sendmessage').show();
+                    $('html, body').animate({scrollTop:$('#contact').position().top}, 'slow');
+                }
+                return false;
+            });
+        })
+    </script>
+@endsection
